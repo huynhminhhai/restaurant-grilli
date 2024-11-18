@@ -26,12 +26,152 @@
 
 <body>
 
-  <!-- #PRELOAD -->
-  <div class="preload">
+  <!-- PRELOAD -->
+  <div class="preload" data-preload>
     <div class="circle"></div>
     <p class="text">Grilli</p>
   </div>
 
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="text">
+          Restaurant St, Delicious City, London 9657, UK
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="text">
+          Daily: 8:00 am to 10:00 pm
+        </span>
+      </div>
+
+      <a href="tel:" class="topbar-item">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+          <span class="text">0848551555</span>
+        </div>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:" class="topbar-item">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+          <span class="text">huynhminhhai.1555@gmail.com</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- HEADER  -->
+  <div class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="logo">
+        </a>
+  
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="text">Menu</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about-us" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="text">About Us</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#our-chefs" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="text">Our Chefs</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#pages" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="text">Pages</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="text">Contact</span>
+            </a>
+          </li>
+        </ul>
+  
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+  
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578 UK
+          </address>
+  
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30 pm</p>
+  
+          <a href="mailto:" class="body-4 sidebar-link">
+            huynhminhhai.1555@gmail.com
+          </a>
+          
+          <div class="separator"></div>
+  
+          <p class="contact-label">Booking Request</p>
+  
+          <a href="tel:" class="body-1 contact-number hover-underline">
+            +84-848-551555
+          </a>
+        </div>
+      </nav>
+
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find a table</span>
+        <span class="text text-2" aria-hidden="true">Find a table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </div>
 
   <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
