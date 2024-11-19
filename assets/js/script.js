@@ -136,3 +136,29 @@ addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], 'mouseover', function
 addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], 'mouseout', autoSlide)
 
 window.addEventListener('load', autoSlide)
+
+
+/**
+ * ABOUT
+ * 
+ * parallax effect
+ */
+
+// const parallaxItem = document.querySelectorAll('[data-parallax-item]')
+
+// let x, y
+
+// window.addEventListener('mousemove', function(e) {
+//   x = (e.clientX / this.window.innerWidth * 10) - 5
+//   y = (e.clientY / this.window.innerHeight * 10) - 5
+
+//   // reverse the number eg. 20 -> -20, 5 -> -5
+//   x = x - (x * 2)
+//   y = y - (y * 2)
+
+//   for (let i = 0, len = parallaxItem.length; i < len ; i++) {
+//     x = x * Number(parallaxItem[i].dataset.parallaxSpeed)
+//     y = y * Number(parallaxItem[i].dataset.parallaxSpeed)
+//     parallaxItem[i].style.transform = `trasnlate3d(${x}px, ${y}px, 0px)`
+//   }
+// })
