@@ -1323,3 +1323,31 @@ body.nav-active {
   max-width: 100%;
   width: 100%;
 }
+
+/*--------------------------------------*\
+  FEATURES
+\*--------------------------------------*/
+
+.features .section-title {
+  margin-block-end: 40px;
+}
+
+.features .feature-card {padding: 30px 40px 20px;}
+
+.features .feature-item:nth-child(2n+1) .feature-card {background-color: var(--eerie-black-3);}
+
+.features .feature-item:nth-child(2n) .feature-card {background-color: var(--smoky-black-3);}
+
+.features .feature-card .card-icon {
+  max-width: max-content;
+  margin-inline: auto;
+  transition: var(--transition-2);
+}
+
+.features .feature-card:is(:hover) .card-icon {
+  transform: scale(-1) rotate(180deg);
+}
+
+.features .feature-card .card-title { margin-block: 20px;}
+
+.features .feature-card .card-text {color: var(--quick-silver); line-height: var(--lineHeight-6);}
