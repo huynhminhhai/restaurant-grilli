@@ -1404,3 +1404,113 @@ body.nav-active {
 .event .btn {
   margin: 40px auto 0;
 }
+
+/*--------------------------------------*\
+  FOOTER
+\*--------------------------------------*/
+
+.footer {
+  background-image: url('/assets/images/footer-bg.jpg');
+}
+
+.footer .footer-top {margin-block-end: 70px;}
+
+.footer .footer-brand {
+  position: relative;
+  padding: 50px 40px;
+  background: var(--smoky-black-1) url('/assets/images/footer-form-bg.png');
+  background-repeat: repeat;
+  background-position: center top;
+}
+
+.footer .footer-brand::before,
+.footer .footer-brand::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 15px;
+  height: 100%;
+  background-image: url('/assets/images/footer-form-pattern.svg');
+}
+
+.footer .footer-brand::before {
+  left: 0;
+}
+
+.footer .footer-brand::after {
+  right: 0;
+}
+
+.footer .logo {
+  max-width: max-content;
+  margin-inline: auto;
+  margin-block-end: 40px;
+}
+
+.footer .footer-brand :is(.body-4, .label-1) {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
+
+.footer .footer-brand .contact-link {
+  margin-block: 6px;
+  transition: var(--transition-1);
+}
+
+.footer .footer-brand .contact-link:is(:hover, :focus-visible) {color: var(--gold-crayola);}
+
+.footer .footer-brand .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 40px 25px;
+}
+
+.footer .footer-brand .separator {animation: roatate360 15s linear infinite;}
+
+.footer .footer-brand .label-1 {margin-block-end: 30px;}
+
+.footer .footer-brand .label-1 .text {
+  display: inline;
+  color: var(--white);
+}
+
+.footer .btn {
+  max-width: 100%;
+  width: 100%;
+}
+/* 
+.footer .footer-brand .icon-wrapper {
+  margin-block-end: 0;
+} */
+
+.footer .footer-brand .icon-wrapper .input-field {cursor: text;}
+
+.footer .footer-list {
+  display: grid;
+  gap: 20px;
+}
+
+.footer .footer-link {
+  color: var(--quick-silver);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-1);
+  margin-inline: auto;
+  transition: var(--transition-1);
+}
+
+.footer .footer-link:is(:hover, :focus-visible) {
+  color: var(--gold-crayola);
+}
+ 
+.footer .copyright {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
+
+.footer .copyright .link {
+  display: inline;
+  color: var(--gold-crayola);
+  text-decoration: underline;
+}
